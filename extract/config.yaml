@@ -1,0 +1,14 @@
+#config file with the webpages information like the url and the structure where the links, news title and body are shown in the html files
+news_sites:
+  elcolombiano:
+    url: https://www.elcolombiano.com
+    queries:
+      homepage_article_links : '.right h3 a'
+      article_body: '.text p'
+      article_title: '.headline .priority-content'
+  elpais:
+    url: https://elpais.com/
+    queries:
+      homepage_article_links : 'h2 a'
+      article_body: '.article_body p'
+      article_title: 'h1 '
